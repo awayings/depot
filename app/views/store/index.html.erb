@@ -2,7 +2,7 @@
     <p id="notice"><%= notice %></p>
 <% end %>
 
-<h1>Your Pragmatic Catalog</h1>
+<h1>Your Pragmatic Catalog (<%= @counter %>) </h1>
 
 <% cache ['store', Product.latest] do %>
 
