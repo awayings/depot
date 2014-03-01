@@ -30,7 +30,21 @@ class LineItemsControllerTest < ActionController::TestCase
   end
 
   test "should add unique product" do
-      
+    prod_id = products(:ruby).id
+    post :create, product_id: prod_id
+    assert_equal assigns(:line_item).quantity, 1
+    post :create, product_id: prod_id
+    assert_equal assigns(:line_item).quantity, 2
+  end
+
+  test "should add different products" do
+    prod_id = products(:ruby).id
+    post :create, product_id: prod_id
+    assert_equal assigns(:line_item).quantity, 1
+
+    prod_id = products(:two).id
+    post :create, product_id: prod_id
+    assert_equal assigns(:line_item).quantity, 1
   end
 
   test "should get edit" do
