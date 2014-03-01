@@ -2,14 +2,18 @@ class Cart < ActiveRecord::Base
   has_many :line_items, dependent: :destroy
 
   def add_product(product_id)
-    #prod = Product.find_by(product_id: product_id)
-    prod = line_items.find_by(product_id: product_id)
-    if prod 
-      prod.quantity +=1
+    lineItem = line_items.find_by(product_id: product_id)
+    if lineItem 
+      lineItem.quantity +=1
     else
-      prod = line_items.build(product_id: product_id)
+      lineItem = line_items.build(product_id: product_id)
     end
-    prod
+
+    # update to use new price
+    prod = Product.find_by(id: product_id)
+    lineItem.price = prod.price if prod
+
+    lineItem
   end
 
   def total_price
