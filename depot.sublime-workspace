@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lin",
+				"line_items"
+			],
+			[
 				"line",
 				"line_item"
 			],
@@ -36,26 +40,74 @@
 			}
 		},
 		{
-			"file": "app/assets/javascripts/application.js",
+			"file": "Gemfile.lock",
 			"settings":
 			{
-				"buffer_size": 664,
+				"buffer_size": 3016,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/line_items/_line_item.html.erb",
+			"file": "app/views/line_items/create.js.erb",
 			"settings":
 			{
-				"buffer_size": 256,
+				"buffer_size": 232,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/carts/edit.html.erb",
+			"file": "app/controllers/line_items_controller.rb",
 			"settings":
 			{
-				"buffer_size": 110,
+				"buffer_size": 2083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/controllers/carts_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 986,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/controllers/line_items_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 1925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/store.js.coffee",
+			"settings":
+			{
+				"buffer_size": 346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/carts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2002,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,34 +115,7 @@
 			"file": "app/views/carts/_cart.html.erb",
 			"settings":
 			{
-				"buffer_size": 443,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/store_controller.rb",
-			"settings":
-			{
-				"buffer_size": 312,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/application.css.scss",
-			"settings":
-			{
-				"buffer_size": 1615,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "$('#cart').html(\"<%= escape_javascript render(@cart) %>\");\n",
-			"file": "app/views/line_items/create.js.erb",
-			"file_size": 58,
-			"file_write_time": 130381333515646980,
-			"settings":
-			{
-				"buffer_size": 59,
+				"buffer_size": 510,
 				"line_ending": "Windows"
 			}
 		}
@@ -98,7 +123,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 242.0,
 		"selected_items":
 		[
 			[
@@ -158,7 +183,7 @@
 				"Set Syntax: Ruby"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -179,24 +204,32 @@
 	},
 	"file_history":
 	[
+		"/D/workspace/ubuntu/ws/depot/app/controllers/store_controller.rb",
+		"/D/workspace/ubuntu/ws/depot/db/seeds.rb",
+		"/D/workspace/ubuntu/ws/depot/test/fixtures/products.yml",
+		"/D/workspace/ubuntu/ws/depot/test/fixtures/line_items.yml",
+		"/D/workspace/ubuntu/ws/depot/test/fixtures/carts.yml",
+		"/D/workspace/ubuntu/ws/depot/app/views/store/index.html.erb",
+		"/D/workspace/ubuntu/ws/depot/app/models/line_item.rb",
+		"/D/workspace/ubuntu/ws/depot/test/controllers/line_items_controller_test.rb",
+		"/D/workspace/ubuntu/ws/depot/app/views/products/_form.html.erb",
+		"/D/workspace/ubuntu/ws/depot/app/models/cart.rb",
+		"/D/workspace/ubuntu/ws/depot/app/assets/javascripts/application.js",
+		"/D/workspace/ubuntu/ws/depot/app/views/line_items/_line_item.html.erb",
+		"/D/workspace/ubuntu/ws/depot/app/assets/javascripts/store.js.coffee",
+		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/application.css.scss",
 		"/D/workspace/ubuntu/ws/depot/Gemfile.lock",
 		"/D/workspace/ubuntu/ws/depot/app/controllers/concerns/current_cart.rb",
-		"/D/workspace/ubuntu/ws/depot/app/views/layouts/application.html.erb",
-		"/D/workspace/ubuntu/ws/depot/app/views/store/index.html.erb",
-		"/D/workspace/ubuntu/ws/depot/app/controllers/line_items_controller.rb",
-		"/D/workspace/ubuntu/ws/depot/app/models/line_item.rb",
-		"/D/workspace/ubuntu/ws/depot/app/views/line_items/_line_item.html.erb",
-		"/D/workspace/ubuntu/ws/depot/app/views/products/_form.html.erb",
+		"/D/workspace/ubuntu/ws/depot/app/views/carts/_cart.html.erb",
 		"/D/workspace/ubuntu/ws/depot/app/views/line_items/create.js.erb",
-		"/D/workspace/ubuntu/ws/depot/app/models/cart.rb",
+		"/D/workspace/ubuntu/ws/depot/app/views/layouts/application.html.erb",
+		"/D/workspace/ubuntu/ws/depot/app/controllers/line_items_controller.rb",
 		"/D/workspace/ubuntu/ws/depot/app/views/products/index.html.erb",
 		"/D/workspace/ubuntu/ws/depot/app/views/carts/show.html.erb",
 		"/D/workspace/ubuntu/ws/depot/config/environment.rb",
 		"/D/workspace/ubuntu/ws/depot/config/initializers/backtrace_silencers.rb",
 		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/carts.css.scss",
 		"/D/workspace/ubuntu/ws/depot/app/controllers/carts_controller.rb",
-		"/D/workspace/ubuntu/ws/depot/test/controllers/line_items_controller_test.rb",
-		"/D/workspace/ubuntu/ws/depot/test/fixtures/products.yml",
 		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/store.css.scss",
 		"/D/workspace/ubuntu/ws/depot/app/models/product.rb",
 		"/D/workspace/ubuntu/ws/depot/test/models/line_item_test.rb",
@@ -214,16 +247,12 @@
 		"/D/workspace/ubuntu/ws/depot/test/controllers/carts_controller_test.rb",
 		"/D/workspace/ubuntu/ws/depot/a.rb",
 		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/scaffolds.css.scss",
-		"/D/workspace/ubuntu/ws/depot/app/assets/javascripts/store.js.coffee",
-		"/D/workspace/ubuntu/ws/depot/app/controllers/store_controller.rb",
-		"/D/workspace/ubuntu/ws/depot/db/seeds.rb",
 		"/D/workspace/ubuntu/ws/depot/app/views/carts/_form.html.erb",
 		"/D/workspace/ubuntu/ws/depot/config/initializers/session_store.rb",
 		"/D/workspace/ubuntu/ws/depot/tmp/cache/assets/development/sprockets/b261fa987a3e88f07b352eba69495e3b",
 		"/D/workspace/ubuntu/ws/depot/config/environments/development.rb",
 		"/D/workspace/ubuntu/ws/depot/config.ru",
 		"/D/workspace/ubuntu/ws/depot/test/controllers/products_controller_test.rb",
-		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/application.css.scss",
 		"/D/workspace/ubuntu/ws/depot/config/routes.rb",
 		"/D/workspace/ubuntu/ws/depot/Rakefile",
 		"/D/workspace/ubuntu/ws/depot/app/controllers/products_controller.rb",
@@ -232,7 +261,6 @@
 		"/D/workspace/ubuntu/ws/depot/test/models/product_test.rb",
 		"/D/workspace/ubuntu/ws/depot/app/assets/stylesheets/application.css",
 		"/D/workspace/ubuntu/ws/depot/app/helpers/application_helper.rb",
-		"/D/workspace/ubuntu/ws/depot/app/assets/javascripts/application.js",
 		"/D/workspace/ubuntu/ws/depot/application.html.erb",
 		"/D/workspace/ubuntu/ws/depot/app/views/products/show.html.erb",
 		"/D/workspace/ubuntu/ws/depot/config/initializers/secret_token.rb",
@@ -297,6 +325,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"set_cart",
+			"hidden_div_if",
+			"jquery-ui-",
 			"prod",
 			"invalid_cart",
 			"add_product",
@@ -328,7 +359,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -344,8 +375,8 @@
 						"selection":
 						[
 							[
-								641,
-								641
+								1025,
+								1025
 							]
 						],
 						"settings":
@@ -356,29 +387,89 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/assets/javascripts/application.js",
+					"file": "Gemfile.lock",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 664,
+						"buffer_size": 3016,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								664,
-								664
+								2877,
+								2887
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1446.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/line_items/create.js.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/line_items_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -388,105 +479,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/views/line_items/_line_item.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/carts/edit.html.erb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "app/views/carts/_cart.html.erb",
+					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 443,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								309,
-								309
+								510,
+								510
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/controllers/store_controller.rb",
+					"file": "test/controllers/carts_controller_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								137,
+								137
 							]
 						],
 						"settings":
@@ -504,60 +540,146 @@
 				},
 				{
 					"buffer": 6,
-					"file": "app/assets/stylesheets/application.css.scss",
+					"file": "test/controllers/line_items_controller_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1615,
+						"buffer_size": 1925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1614,
-								1614
+								911,
+								911
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 984.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "app/views/line_items/create.js.erb",
+					"file": "app/assets/javascripts/store.js.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 59,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								336,
+								336
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/JavaScript (Rails).tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/helpers/application_helper.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/carts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1173,
+								1173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/carts/_cart.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								510,
+								510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -614,6 +736,82 @@
 		"selected_items":
 		[
 			[
+				"store.js",
+				"app\\assets\\javascripts\\store.js.coffee"
+			],
+			[
+				"lict",
+				"test\\controllers\\line_items_controller_test.rb"
+			],
+			[
+				"ac",
+				"app\\controllers\\carts_controller.rb"
+			],
+			[
+				"avla",
+				"app\\views\\layouts\\application.html.erb"
+			],
+			[
+				"lic",
+				"app\\controllers\\line_items_controller.rb"
+			],
+			[
+				"tcc",
+				"test\\controllers\\carts_controller_test.rb"
+			],
+			[
+				"_cart",
+				"app\\views\\carts\\_cart.html.erb"
+			],
+			[
+				"aha",
+				"app\\helpers\\application_helper.rb"
+			],
+			[
+				"_ca",
+				"app\\views\\carts\\_cart.html.erb"
+			],
+			[
+				"acc",
+				"app\\controllers\\carts_controller.rb"
+			],
+			[
+				"acl",
+				"app\\controllers\\line_items_controller.rb"
+			],
+			[
+				"asja",
+				"app\\assets\\javascripts\\application.js"
+			],
+			[
+				"gem",
+				"Gemfile.lock"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"cr",
+				"app\\views\\line_items\\create.js.erb"
+			],
+			[
+				"acli",
+				"app\\controllers\\line_items_controller.rb"
+			],
+			[
+				"aaja",
+				"app\\assets\\javascripts\\application.js"
+			],
+			[
+				"cart.e",
+				"app\\views\\carts\\_cart.html.erb"
+			],
+			[
+				"create.js",
+				"app\\views\\line_items\\create.js.erb"
+			],
+			[
 				"gemfile",
 				"Gemfile"
 			],
@@ -632,18 +830,6 @@
 			[
 				"avlil",
 				"app\\views\\line_items\\_line_item.html.erb"
-			],
-			[
-				"acl",
-				"app\\controllers\\line_items_controller.rb"
-			],
-			[
-				"aaja",
-				"app\\assets\\javascripts\\application.js"
-			],
-			[
-				"gem",
-				"Gemfile.lock"
 			],
 			[
 				"acs",
@@ -684,10 +870,6 @@
 			[
 				"tcl",
 				"test\\controllers\\line_items_controller_test.rb"
-			],
-			[
-				"acc",
-				"app\\controllers\\carts_controller.rb"
 			],
 			[
 				"avcs",
@@ -752,10 +934,6 @@
 			[
 				"db/migrate/20140225122708_combine_items_in_cart.rb",
 				"db\\migrate\\20140225122708_combine_items_in_cart.rb"
-			],
-			[
-				"acli",
-				"app\\controllers\\line_items_controller.rb"
 			],
 			[
 				"cart.rb",
@@ -946,7 +1124,7 @@
 	},
 	"select_symbol":
 	{
-		"height": 104.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
