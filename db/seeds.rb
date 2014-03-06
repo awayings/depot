@@ -6,12 +6,16 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Product.create!(title: 'Programing Ruby 1.9 & 2.0',
-                description: %{
-                  <p>
-                  Ruby is the fastest grouing and most exciting dynamci language.
-                  </p>
-                  },
-                  image_url: 'ruby_jpg',
-                  price: 49.22)
+# Product.create!(title: 'ROR 1.9 & 2.0',
+#                 description: %{
+#                   <p>
+#                   Ruby is the fastest grouing and most exciting dynamci language.
+#                   </p>
+#                   },
+#                   image_url: 'ruby.jpg',
+#                   price: 49.22)
 
+#PaymentType.create( name: "Check")
+PaymentType.create( name: "Cash")
+#PaymentType.create(:name => "Credit Card")
+#PaymentType.create(:name => "Purchase Order")
