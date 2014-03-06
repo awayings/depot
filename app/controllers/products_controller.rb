@@ -65,6 +65,17 @@ class ProductsController < ApplicationController
   def who_bought
     @product = Product.find(params[:id])
     @latest_order = @product.orders.order(:updated_at).last
+    
+    if stale?(@latest_order)
+      respond_to do |format|
+        format.atom
+        format.xml { render :xml => @product.to_xml(:include => :orders) }
+        format.json { render :json => @product.to_json(:include => :orders) }
+        format.html
+      end
+
+    end
+
   end
 
   private

@@ -15,7 +15,10 @@
 
 </table>
 
-<%= button_to 'Checkout', new_order_path, method: :get %>
+<% unless current_page?(new_order_path) %>
+  <%= button_to 'Checkout', new_order_path, method: :get %>
+<% end %>
+
 <!-- START_HIGHLIGHT -->
 <%= button_to 'Empty cart', cart, method: :delete,
 #END_HIGHLIGHT
