@@ -30,6 +30,7 @@ class OrdersControllerTest < ActionController::TestCase
 
   test "should create order" do
     assert_difference('Order.count') do
+      Rails::logger.debug "Interesting stuff"
       post :create, order: { address: @order.address, email: @order.email, name: @order.name, pay_type_id: @order.pay_type_id }
     end
 
