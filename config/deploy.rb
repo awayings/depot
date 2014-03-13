@@ -8,6 +8,7 @@ set :rvm_ruby_string, 'ruby-2.0.0-p353'
 require 'rvm/capistrano'
 
 set :repository,  "#{user}@#{domain}:git/#{application}.git"
+#set :repository,  "https://github.com:awayings/depot.git"
 set :deploy_to, "/home/#{user}/deploy/#{application}"
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
