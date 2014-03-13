@@ -50,3 +50,6 @@ end
 
 gem 'activerecord-session_store'
 
+group :production do 
+  gem 'mysql2'
+end
